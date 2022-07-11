@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SplitScreenSlider</title>
+    <link rel="stylesheet" href="style1.css">
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+		<!--MAIN NAVIGATION BUTTON -->
+
+    <div class="wrapper">
+		<nav class="main-nav">
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="about.html">About</a></li>
+				<li><a href="services.html">Services</a></li>
+				<li><a href="contact.html">Contact</a></li>
+				<li><a href="splitscreenslider.html">SplitScreen</a></li>
+                <li><a href="animeabstract.html">Abstract</a></li>
+			</ul>
+		</nav>
+	</div>
+	<!--IMG SPLITSCREEN-->
+    <section id="wrapper" class="skewed">
+        <div class="layer bottom">
+          <div class="content-wrap">
+            <div class="content-body">
+              <h1>Look Sharp</h1>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut quisquam temporibus dolore vero reiciendis atque debitis. Sequi at consequatur deserunt?</p>
+            </div>
+            <img src="img/426446.jpg" alt="">
+          </div>
+        </div>
+    
+        <div class="layer top">
+            <div class="content-wrap">
+              <div class="content-body">
+                <h1>Stay Cool</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut quisquam temporibus dolore vero reiciendis atque debitis. Sequi at consequatur deserunt?</p>
+              </div>
+              <img src="img/426446gray.jpg" alt="">
+            </div>
+          </div>
+          
+
+          <div class="handle"></div>
+    </section> 
+    <br> 
+	<!--INFO WITH IMG AND 2 INFO BOXES-->
+    <section class="top-container">
+		<header class="showcase2">
+			<h1>Lorem ipsum dolor sit amet.</h1>
+			<p id="rm">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque minus odio, voluptates placeat quibusdam natus!</p>
+			<button type="button" class="btn" onclick="myFunction2()">Read More</button>
+			<script>
+				function myFunction2() {
+					var x = document.getElementById("rm");
+					if (x.innerHTML === "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque minus odio, voluptates placeat quibusdam natus!") {
+						x.innerHTML = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus soluta minima earum deserunt maiores perspiciatis accusantium. Accusamus, sit unde reprehenderit. Nisi rerum obcaecati ut quia maxime tempora libero quae vel asperiores officiis, tempore nobis id placeat a doloribus deleniti et eveniet ipsum. ";
+					} else {
+						x.innerHTML = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque minus odio, voluptates placeat quibusdam natus!";
+					}
+					}
+			</script>
+		</header>
+		<div class="top-box top-box-a">
+			<i class="fas fa-phone-square-alt fa-4x"></i>
+			<h3>Lorem ipsum dolor.</h3>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro sapiente totam architecto nisi qui illo!</p>
+		</div>
+		<div class="top-box top-box-b">
+			<i class="fas fa-comments fa-4x"></i>
+			<h3>Lorem ipsum dolor.</h3>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro sapiente totam architecto nisi qui illo!</p>
+		</div>
+	</section>
+		<!--IMG SOURCE UNSPLASH-->
+	<section class="portfolio">
+		<img src="https://source.unsplash.com/random/200x200" alt="pic">
+		<img src="https://source.unsplash.com/random/201x200" alt="pic">
+		<img src="https://source.unsplash.com/random/202x200" alt="pic">
+		<img src="https://source.unsplash.com/random/203x200" alt="pic">
+		<img src="https://source.unsplash.com/random/204x200" alt="pic">
+		<img src="https://source.unsplash.com/random/205x200" alt="pic">
+		<img src="https://source.unsplash.com/random/206x200" alt="pic">
+		<img src="https://source.unsplash.com/random/207x200" alt="pic">
+		<img src="https://source.unsplash.com/random/208x200" alt="pic">
+		<img src="https://source.unsplash.com/random/209x200" alt="pic">
+		<img src="https://source.unsplash.com/random/210x200" alt="pic">
+		<img src="https://source.unsplash.com/random/211x200" alt="pic">
+			 
+	</section>
+	<footer>
+		<p>Grid CSS Website &copy;2022</p>
+	</footer>
+	</div>
+    <script src="main.js"></script>
+    
+</body>
+
+</html>

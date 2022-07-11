@@ -1,0 +1,142 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Grid Website</title>
+<script src="https://kit.fontawesome.com/5676660606.js" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+	<!--MAIN NAVIGATION BUTTON -->
+	<div class="wrapper">
+		<nav class="main-nav">
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="about.html">About</a></li>
+				<li><a href="services.html">Services</a></li>
+				<li><a href="contact.html">Contact</a></li>
+				<li><a href="splitscreenslider.html">SplitScreen</a></li>
+				<li><a href="animeabstract.html">Abstract</a></li>
+			</ul>
+		</nav>
+	</div>
+	<!--TOP CONTAINER WITH BANNER AND PRICE BUY BUTTONS-->
+	<section class="top-container">
+		<header class="showcase">
+			<h1>WELCOME</h1>
+			<p id="rm">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque minus odio, voluptates placeat quibusdam natus!</p>
+			<button type="button" class="btn" onclick="myFunction2()">Read More</button>
+			<script>
+				function myFunction2() {
+					var x = document.getElementById("rm");
+					if (x.innerHTML === "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque minus odio, voluptates placeat quibusdam natus!") {
+						x.innerHTML = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus soluta minima earum deserunt maiores perspiciatis accusantium. Accusamus, sit unde reprehenderit. Nisi rerum obcaecati ut quia maxime tempora libero quae vel asperiores officiis, tempore nobis id placeat a doloribus deleniti et eveniet ipsum. ";
+					} else {
+						x.innerHTML = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque minus odio, voluptates placeat quibusdam natus!";
+					}
+					}
+			</script>
+		</header>
+		
+		<div class="top-box top-box-a">
+			<h4>Lorem ipsum dolor sit amet.</h4>
+			<p class="price">$199/Mo</p>
+			<a href="#" class="btn">Buy Now</a>
+		</div>
+		<div class="top-box top-box-b">
+			<h4>Lorem ipsum dolor sit amet.</h4>
+			<p class="price">$299/Mo</p>
+			<a href="#" class="btn">Buy Now</a>
+		</div>
+	</section>
+	
+	<!--ISOMETRIC ILLUSTRATION WITH VIDEO-->
+	<section class="info">
+			<video autoplay muted loop>
+			  <source src="Isometric Illustration for ae.mp4" type="video/mp4">
+
+				Your browser does not support the video tag.
+			</video>
+			<div>
+				<h2>Isometric Illustration</h2>
+				<p id="lm">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus soluta minima earum deserunt maiores perspiciatis accusantium. Accusamus, sit unde reprehenderit. Nisi rerum obcaecati ut quia maxime tempora libero quae vel asperiores officiis, tempore nobis id placeat a doloribus deleniti et eveniet ipsum. Dolor culpa ipsum consequatur autem ab illo distinctio.</p>
+				
+				<button type="button" class="btn" onclick="myFunction()">Learn More</button>
+				<script>
+					function myFunction() {
+						var x = document.getElementById("lm");
+						if (x.innerHTML === "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus soluta minima earum deserunt maiores perspiciatis accusantium. Accusamus, sit unde reprehenderit. Nisi rerum obcaecati ut quia maxime tempora libero quae vel asperiores officiis, tempore nobis id placeat a doloribus deleniti et eveniet ipsum. Dolor culpa ipsum consequatur autem ab illo distinctio.") {
+							x.innerHTML = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus soluta minima earum deserunt maiores perspiciatis accusantium. Accusamus, sit unde reprehenderit. Nisi rerum obcaecati ut quia maxime tempora libero quae vel asperiores officiis, tempore nobis id placeat a doloribus deleniti et eveniet ipsum. Dolor culpa ipsum consequatur autem ab illo distinctio.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus soluta minima earum deserunt maiores perspiciatis accusantium. Accusamus, sit unde reprehenderit. Nisi rerum obcaecati ut quia maxime tempora libero quae vel asperiores officiis, tempore nobis id placeat a doloribus deleniti et eveniet ipsum. Dolor culpa ipsum consequatur autem ab illo distinctio.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus soluta minima earum deserunt maiores perspiciatis accusantium. Accusamus, sit unde reprehenderit. Nisi rerum obcaecati ut quia maxime tempora libero quae vel asperiores officiis, tempore nobis id placeat a doloribus deleniti et eveniet ipsum. Dolor culpa ipsum consequatur autem ab illo distinctio.";
+						} else {
+							x.innerHTML = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus soluta minima earum deserunt maiores perspiciatis accusantium. Accusamus, sit unde reprehenderit. Nisi rerum obcaecati ut quia maxime tempora libero quae vel asperiores officiis, tempore nobis id placeat a doloribus deleniti et eveniet ipsum. Dolor culpa ipsum consequatur autem ab illo distinctio.";
+						}
+						}
+				</script>
+				
+			</div>
+	</section>
+	<!--4 CARD BOX LOGO FONTAWESOME-->
+	<section class="boxes">
+		<div class="box">
+			<i class="fas fa-chart-pie fa-4x"></i>
+			<h3>Lorem ipsum dolor.</h3>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro sapiente totam architecto nisi qui illo!</p>
+		</div>
+		<div class="box">
+			<i class="fas fa-globe fa-4x"></i>
+			<h3>Lorem ipsum dolor.</h3>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro sapiente totam architecto nisi qui illo!</p>
+		</div>
+		<div class="box">
+			<i class="fas fa-cog fa-4x"></i>
+			<h3>Lorem ipsum dolor.</h3>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro sapiente totam architecto nisi qui illo!</p>
+		</div>
+		<div class="box">
+			<i class="fas fa-users fa-4x"></i>
+			<h3>Lorem ipsum dolor.</h3>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro sapiente totam architecto nisi qui illo!</p>
+		</div>
+	</section>
+	<!--INFO WITH IMG-->
+	<section class="info">
+		<img src="img/nature.jpg" alt="pic" width="600">
+		<div>
+			<h2>Lorem ipsum dolor sit amet.</h2>
+			<p id="lm1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis, laboriosam. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque numquam nihil repellendus dolore ex, nulla reprehenderit perferendis esse consequatur ducimus, nam libero dolorum beatae sint dolorem qui doloremque aperiam laudantium deleniti unde, odit necessitatibus asperiores fugiat! A officia quod animi sit reiciendis. Explicabo in officiis quas rem reiciendis, ex aliquid.</p>
+			<button type="button" class="btn" onclick="myFunction1()">Learn More</button>
+			<script>
+				function myFunction1() {
+					var x = document.getElementById("lm1");
+					if (x.innerHTML === "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis, laboriosam. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque numquam nihil repellendus dolore ex, nulla reprehenderit perferendis esse consequatur ducimus, nam libero dolorum beatae sint dolorem qui doloremque aperiam laudantium deleniti unde, odit necessitatibus asperiores fugiat! A officia quod animi sit reiciendis. Explicabo in officiis quas rem reiciendis, ex aliquid.") {
+						x.innerHTML = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus soluta minima earum deserunt maiores perspiciatis accusantium. Accusamus, sit unde reprehenderit. Nisi rerum obcaecati ut quia maxime tempora libero quae vel asperiores officiis, tempore nobis id placeat a doloribus deleniti et eveniet ipsum. Dolor culpa ipsum consequatur autem ab illo distinctio.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus soluta minima earum deserunt maiores perspiciatis accusantium. Accusamus, sit unde reprehenderit. Nisi rerum obcaecati ut quia maxime tempora libero quae vel asperiores officiis, tempore nobis id placeat a doloribus deleniti et eveniet ipsum. Dolor culpa ipsum consequatur autem ab illo distinctio.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus soluta minima earum deserunt maiores perspiciatis accusantium. Accusamus, sit unde reprehenderit. Nisi rerum obcaecati ut quia maxime tempora libero quae vel asperiores officiis, tempore nobis id placeat a doloribus deleniti et eveniet ipsum. Dolor culpa ipsum consequatur autem ab illo distinctio.";
+					} else {
+						x.innerHTML = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis, laboriosam. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque numquam nihil repellendus dolore ex, nulla reprehenderit perferendis esse consequatur ducimus, nam libero dolorum beatae sint dolorem qui doloremque aperiam laudantium deleniti unde, odit necessitatibus asperiores fugiat! A officia quod animi sit reiciendis. Explicabo in officiis quas rem reiciendis, ex aliquid.";
+					}
+					}
+			</script>
+		</div>
+	</section>
+	<!--IMG SOURCE UNSPLASH-->
+	<section class="portfolio">
+		<img src="https://source.unsplash.com/random/200x200" alt="pic">
+		<img src="https://source.unsplash.com/random/201x200" alt="pic">
+		<img src="https://source.unsplash.com/random/202x200" alt="pic">
+		<img src="https://source.unsplash.com/random/203x200" alt="pic">
+		<img src="https://source.unsplash.com/random/204x200" alt="pic">
+		<img src="https://source.unsplash.com/random/205x200" alt="pic">
+		<img src="https://source.unsplash.com/random/206x200" alt="pic">
+		<img src="https://source.unsplash.com/random/207x200" alt="pic">
+		<img src="https://source.unsplash.com/random/208x200" alt="pic">
+		<img src="https://source.unsplash.com/random/209x200" alt="pic">
+		<img src="https://source.unsplash.com/random/210x200" alt="pic">
+		<img src="https://source.unsplash.com/random/211x200" alt="pic">
+			 
+	</section>
+	
+	<footer>
+		<p>Grid CSS Website &copy;2022</p>
+	</footer>
+</body>
+</html>
